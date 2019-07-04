@@ -6,6 +6,7 @@
 = Configuring the Mirror Maker to exit on a failed send
 
 Configure whether the Mirror Maker should exit on a failed send using the `KafkaMirrorMaker.spec.producer.abortOnSendFailure` property.
+This option is set to `true` by default.
 
 .Prerequisites
 
@@ -26,7 +27,7 @@ metadata:
 spec:
   # ...
   producer:
-    abortOnSendFailure: true
+    abortOnSendFailure: false
   # ...
 ----
 +
