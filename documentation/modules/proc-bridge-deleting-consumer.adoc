@@ -5,7 +5,7 @@
 [id='proc-bridge-deleting-consumer-{context}']
 = Deleting a Kafka Bridge consumer
 
-Finally, delete the Kafa Bridge consumer that you used throughout this quickstart.
+Delete the Kafka Bridge consumer that you used throughout this quickstart.
 
 .Procedure
 
